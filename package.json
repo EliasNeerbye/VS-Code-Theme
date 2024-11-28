@@ -1,21 +1,25 @@
 {
-  "name": "blank-s-theme",
-  "displayName": "Blank's Theme",
-  "description": "Just a theme that suits people who like clear differences.",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.95.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Blank's Theme",
-        "uiTheme": "hc-black",
-        "path": "./themes/Blank's Theme-color-theme.json"
-      }
-    ]
-  }
+    "name": "blank-s-theme",
+    "displayName": "Blank's Theme",
+    "description": "Just a theme that suits people who like clear differences.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.95.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/EliasNeerbye/VS-Code-Theme.git"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Blank's Theme",
+                "uiTheme": "hc-black",
+                "path": "./themes/Blank's Theme-color-theme.json"
+            }
+        ]
+    }
 }
