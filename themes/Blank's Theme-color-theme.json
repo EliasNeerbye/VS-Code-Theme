@@ -1,8 +1,8 @@
 {
     "name": "Blank's Theme",
     "colors": {
-        "editor.background": "#000129",
-        "sideBar.background": "#000129",
+        "editor.background": "#000010",
+        "sideBar.background": "#000010",
         "activityBar.background": "#000129",
         "statusBar.background": "#000129",
 
