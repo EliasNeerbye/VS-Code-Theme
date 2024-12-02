@@ -5,43 +5,40 @@
         "sideBar.background": "#000010",
         "activityBar.background": "#000129",
         "statusBar.background": "#000129",
-
         "tab.border": "#ff00958f",
         "sideBar.border": "#ff00958f",
         "activityBar.border": "#ff00958f",
         "statusBar.border": "#ff00958f",
-
-        "editor.foreground": "#ffffff", // Text color in the editor
-        "sideBar.foreground": "#ffffff", // Text color in the side bar
-        "activityBar.foreground": "#ffffff", // Text color in the activity bar
-        "statusBar.foreground": "#ffffff", // Text color in the status bar
-
-        "tab.activeBackground": "#330033", // Active tab background
-        "tab.unfocusedActiveBackground": "#440044", // Unfocused active tab background
-        "tab.hoverBackground": "#550055", // Tab hover background
-        "tab.inactiveBackground": "#660066", // Inactive tab background
-
-        "editorLineNumber.foreground": "#666666", // Line number color
-        "editorLineNumber.activeForeground": "#ffffff", // Active line number color
-        "editorCursor.foreground": "#ff0000", // Cursor color
-        "editor.selectionBackground": "#333333", // Selection background
-        "editor.selectionHighlightBorder": "#666666", // Selection border
-
-        "input.background": "#111111", // Input box background
-        "input.border": "#ff00958f", // Input box border
-        "input.foreground": "#ffffff", // Input box text color
-        "input.placeholderForeground": "#666666", // Input box placeholder text color
-
-        "focusBorder": "#ff0000", // Focus border color
-        "widget.border": "#ff00958f", // Widget border color
-        "widget.shadow": "#333333", // Widget shadow color
-
-        "selection.background": "#5124B3A6", // Overall selection background
-        "descriptionForeground": "#666666", // Description text color
-        "errorForeground": "#ff0000", // Error text color
-        "icon.foreground": "#ffffff" // Icon color
+        "editor.foreground": "#ffffff",
+        "sideBar.foreground": "#ffffff",
+        "activityBar.foreground": "#ffffff",
+        "statusBar.foreground": "#ffffff",
+        "tab.activeBackground": "#301427", // Darker active tab color
+        "tab.unfocusedActiveBackground": "#440044",
+        "tab.hoverBackground": "#44445A",
+        "tab.inactiveBackground": "#191920",
+        "editorLineNumber.foreground": "#666666",
+        "editorLineNumber.activeForeground": "#ffffff",
+        "editorCursor.foreground": "#ff0000",
+        "editor.selectionBackground": "#333377", // Better contrast for selection
+        "editor.selectionForeground": "#ffffff", // Ensures selected text is readable
+        "editor.selectionHighlightBorder": "#ff00958f", // Matches border colors
+        "input.background": "#111111",
+        "input.border": "#ff00958f",
+        "input.foreground": "#ffffff",
+        "input.placeholderForeground": "#666666",
+        "focusBorder": "#ff00958f", // Updated to match borders
+        "widget.border": "#ff00958f",
+        "widget.shadow": "#333333",
+        "selection.background": "#5124B3A6",
+        "descriptionForeground": "#666666",
+        "errorForeground": "#ff0000",
+        "icon.foreground": "#ffffff",
+        "editorGroupHeader.border": "#ff00958f",
+        "panel.border": "#ff00958f",
+        "dropdown.border": "#ff00958f",
+        "titleBar.border": "#ff00958f"
     },
-
     "tokenColors": [
         {
             "scope": "emphasis",
@@ -380,7 +377,6 @@
                 "foreground": "#ff7944"
             }
         },
-        // Go
         {
             "scope": ["keyword.package.go", "keyword.import.go"],
             "settings": {
@@ -399,8 +395,6 @@
                 "foreground": "#d881e0"
             }
         },
-
-        // Rust
         {
             "scope": "keyword.other.fn.rust",
             "settings": {
@@ -419,7 +413,6 @@
                 "foreground": "#45B7D1"
             }
         },
-        // JavaScript
         {
             "scope": "variable.other.object.js",
             "settings": {
@@ -438,8 +431,6 @@
                 "foreground": "#B10DC9"
             }
         },
-
-        // Python
         {
             "scope": "keyword.operator.logical.python",
             "settings": {
@@ -458,8 +449,6 @@
                 "foreground": "#ddddcd"
             }
         },
-
-        // C#
         {
             "scope": "keyword.other.using.cs",
             "settings": {
@@ -478,8 +467,6 @@
                 "foreground": "#4ecae6"
             }
         },
-
-        // Nested object keys
         {
             "scope": "meta.object-literal.key",
             "settings": {

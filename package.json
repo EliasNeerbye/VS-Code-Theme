@@ -2,11 +2,11 @@
     "name": "blank-s-theme",
     "displayName": "Blank's Theme",
     "description": "Just a theme that suits people who like clear differences.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.95.0"
     },
-    "publisher":"QuidqueStudio",
+    "publisher": "QuidqueStudio",
     "categories": [
         "Themes"
     ],
