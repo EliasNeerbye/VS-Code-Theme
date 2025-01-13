@@ -65,7 +65,10 @@
         "list.inactiveSelectionBackground": "#191920",
         "quickInput.background": "#000129",
         "quickInput.foreground": "#ffffff",
-        "quickInputList.focusBackground": "#401837"
+        "quickInputList.focusBackground": "#401837",
+        "searchEditor.findMatchBorder": "#ff0095",
+        "searchEditor.textInputBorder": "#ff0095",
+        "editorGroup.border": "#ff0095"
     },
     "tokenColors": [
         {
@@ -262,7 +265,7 @@
                 "variable.other.class"
             ],
             "settings": {
-                "foreground": "#b4270e"
+                "foreground": "#f5a196"
             }
         },
         {
