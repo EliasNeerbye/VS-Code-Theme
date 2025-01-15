@@ -2,7 +2,7 @@
     "name": "blank-s-theme",
     "displayName": "Blank's Theme",
     "description": "Just a theme that suits people who like clear differences.",
-    "version": "0.0.4",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.95.0"
     },
